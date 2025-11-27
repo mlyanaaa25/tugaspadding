@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS Box Model</title>
+    <style>
+        /* Agar ukuran elemen lebih mudah diatur */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        /* Contoh latihan border & padding */
+        .kotak1 {
+            width: 300px;
+            height: 100px;
+            padding: 15px;
+            border: 3px solid green;
+            margin: 15px auto;
+            background-color: #e9ffe9;
+        }
+
+        .kotak2 {
+            width: 300px;
+            height: 100px;
+            padding: 20px;
+            border: 2px dashed blue;
+            margin: 15px auto;
+            background-color: #e0ecff;
+        }
+
+        .kotak3 {
+            width: 300px;
+            height: 100px;
+            padding: 25px;
+            border: 4px dotted red;
+            margin: 15px auto;
+            background-color: #ffe9e9;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tugas CSS Box Model</h1>
+
+    <h2>Properti Penting:</h2>
+    <p>margin, padding, border, width, height</p>
+
+    <h2>Latihan: Border & Padding</h2>
+    <p>Berikut adalah contoh penerapan border dan padding pada kotak teks:</p>
+
+    <div class="kotak1">Kotak 1: Border solid + padding 15px</div>
+    <div class="kotak2">Kotak 2: Border dashed + padding 20px</div>
+    <div class="kotak3">Kotak 3: Border dotted + padding 25px</div>
+
+</body>
+</html>
